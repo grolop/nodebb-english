@@ -112,7 +112,7 @@ Enable database authorization in the MongoDB configuration file ``/etc/mongod.co
 .. code:: yaml
 
   security:
-    authorization: enabled
+    authorization: "enabled"
 
 Restart MongoDB and verify the administrative user created earlier can connect:
 
